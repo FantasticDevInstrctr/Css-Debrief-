@@ -1,0 +1,72 @@
+h2 {
+    color: red;
+    text-align: center;
+}
+.monkey {
+    color: saddlebrown;
+}
+
+#ms {
+    color: slateblue;
+    text-align: center;
+}
+
+ol li {
+    color: teal;
+}
+
+#firstdiv {
+    background-color: tomato;
+    border-style: dotted;
+    margin: 100px;
+    padding: 50px;
+}
+
+#firstbox {
+    background-color: tomato;
+}
+#secondbox {
+    background-color: rgb(184, 181, 16);
+}
+#thirdbox {
+    background-color: rgb(79, 165, 39);
+}
+#fourthbox {
+    background-color: rgb(24, 56, 197);
+}
+#fifthbox {
+    background-color: rgb(194, 17, 170);
+}
+/* #container {
+    background-color: yellow;
+} */
+
+.grid {
+    display: grid;
+    border: 3px black solid;
+    height: 600px;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 30% 70%;
+    column-gap: 8px;
+    row-gap: 3px;
+}
+a {
+    display: block;
+    width: 670px;
+    padding: 31px 5px;
+    border-radius: 5px;
+    margin: 20% auto;
+    background-color: rgb(255, 0, 170);
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 32px;
+    color: rgb(3, 53, 28);
+    transition-property: background-color;
+    transition-duration: 750ms;
+  }
+
+  a:hover {
+      background-color: yellowgreen;
+      color: white;
+      transition-duration: 1s;
+  }
